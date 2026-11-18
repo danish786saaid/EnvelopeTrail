@@ -1,0 +1,30 @@
+# Unreal Engine — keep Content/Config, skip rebuildable junk
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+*.VC.db
+*.opensdf
+*.sdf
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+
+.DS_Store
+*.log
+
+# Lighting build data (huge, regenerable in editor)
+*_BuiltData.uasset
+
+# Local IDE / OS
+.idea/
+.vscode/
+*.swp
+*~
+
+# Don't commit marketplace/cache noise
+Content/Developers/
+Content/Collections/
